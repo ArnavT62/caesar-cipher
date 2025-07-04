@@ -13,6 +13,6 @@ def caesar_cipher(text, shift)
       result += char
     end
   end
-  puts result
+  result
 end
 caesar_cipher('What a string!', 5)
